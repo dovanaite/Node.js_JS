@@ -1,0 +1,18 @@
+{
+    "name": "node.js_js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon",
+        "web": "dead-server --port=3000 --host=localhost"
+    },
+    "keywords": [],
+    "author": "Donata <d.dvarionaite@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "dead-server": "^1.0.6",
+        "nodemon": "^2.0.15"
+    }
+}

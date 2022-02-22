@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Skaičiuotuvas</h1>
+    <form>
+        <input id="first_number" type="number" required>
+        <select id="action">
+            <option id="sudetis" value="+">+</option>
+            <option id="atimtis" value="-">-</option>
+            <option id="dalyba" value="/">/</option>
+            <option id="daugyba" value="*">*</option>
+        </select>
+        <input id="second_number" type="number" required>
+        <button class="button" type="button">Skaičiuoti</button>
+    </form>
+    <div class="result"></div>
+
+    <script src="./js/calc.js" defer></script>
+</body>
+
+</html>
